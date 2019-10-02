@@ -1,0 +1,227 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+#about-me {
+  padding: 4rem !important;
+}
+
+.svg-inline--fa {
+  display: inline-block;
+  font-size: inherit;
+  height: 1em;
+  overflow: visible;
+  vertical-align: -.125em;
+}
+
+.svg-inline--fa.fa-w-16 {
+  width: 1em;
+}
+
+svg:not(:root).svg-inline--fa {
+  overflow: visible;
+}
+svg {
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+.profile-image.mb-3.mb-lg-0.ml-lg-5.mr-md-0 img {
+  max-width: 400px;
+    height: 233px;
+}
+
+.bg-primary {
+  background: #007bff !important;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #2b32b2, #007bff) !important;  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #2b32b2, #007bff) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.bord-bottom {
+  width: 40%;
+  height: 1px;
+  background-color: #004D9F;
+  margin: auto;
+}
+
+.title-style {
+  background: linear-gradient(to right, #007bff 0%, #2b32b2 20%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+  font-size:  2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+.skills-section .item-title {
+  font-size: 1rem;
+}
+
+.skills-section .item-icon {
+  font-size: 1.875rem;
+  color: #3B7EEB;
+}
+.skills-section .item-icon .fa-js-square {
+  color: #F1DE4F;
+}
+.skills-section .item-icon .fa-react {
+  color: #62D4FA;
+}
+.skills-section .item-icon .fa-vuejs {
+  color: #64B687;
+}
+.skills-section .item-icon .fa-angular {
+  color: #CA3327;
+}
+.skills-section .item-icon .fa-python {
+  color: #456E9C;
+}
+.skills-section .item-icon .fa-php {
+  color: #777BAF;
+}
+.skills-section .item-icon .fa-npm {
+  color: #BB443E;
+}
+.skills-section .item-icon .fa-gulp {
+  color: #C9514E;
+}
+.skills-section .item-icon .fa-grunt {
+  color: #EFAC42;
+}
+.skills-section .item-icon .fa-html5 {
+  color: #DE6E3C;
+}
+.skills-section .item-icon .fa-css3-alt {
+  color: #53A7DC;
+}
+.skills-section .item-icon .fa-sass {
+  color: #BF6B97;
+}
+.skills-section .item-icon .fa-less {
+  color: #324B7C;
+}
+
+.project-card .link-mask-text {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  vertical-align: middle;
+  color: #fff;
+  display: none;
+}
+
+.project-card .link-mask .link-mask-link {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.project-card .link-mask-text .btn {
+  top: 50%;
+  margin-top: -20px;
+  position: relative;
+}
+
+.btn-secondary:hover {
+  color: #fff;
+  background-color: #3c3c3c;
+  border-color: #363636;
+}
+
+.project-card:hover .link-mask-text {
+  display: block;
+  visibility: visible;
+  background: rgba(41,41,41,0.4);
+}
+
+.vertical-timeline::before {
+  background: #007bff !important;
+}
+
+#timeline {
+  background: #ADA996;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.size-svg {
+  height: 2em !important;
+}
+
+.svg-inline--fa.fa-basketball-ball.fa-w-20.size-svg {
+  color: #FA8320;
+}
+.svg-inline--fa.fa-dumbbell.fa-w-20.size-svg {
+  color: #606060;
+}
+.svg-inline--fa.fa-futbol.fa-w-20.size-svg {
+  color: #007bff;
+} 
+.svg-inline--fa.fa-football-ball.fa-w-20.size-svg {
+  color: #844f49;
+}
+.svg-inline--fa.fa-hamburger.fa-w-20.size-svg {
+  color: #633200;
+}
+.svg-inline--fa.fa-utensils.fa-w-20.size-svg {
+  color: #003163;
+}
+.svg-inline--fa.fa-torii-gate.fa-w-20.size-svg {
+  color: #D10000;
+}
+.svg-inline--fa.fa-laptop-code.fa-w-20.size-svg {
+  color: #848589;
+}
+.svg-inline--fa.fa-project-diagram.fa-w-20.size-svg {
+  color: #25425E;
+}
+.svg-inline--fa.fa-sitemap.fa-w-20.size-svg {
+  color: #48ACE9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#sticky-footer {
+    flex-shrink: none;
+    height: 56px;
+    background: #007bff !important;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2b32b2, #007bff) !important;  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2b32b2, #007bff) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#sticky-footer small {
+  color:white;
+}
